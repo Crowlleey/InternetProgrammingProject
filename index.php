@@ -8,7 +8,18 @@
 ?>
 
 <body>
-    <h1> George Gomes </h1>
+
+    <div class="header"> 
+        <div class="title">
+            <label for="title" id="title">George Gomes</label> <br>
+            <label for="subtitle" id="subtitle">iOS developer</label>
+
+
+    </div>
+
+
+    </div>
+
 
 </body>
 </html>

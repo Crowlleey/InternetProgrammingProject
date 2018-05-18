@@ -1,0 +1,50 @@
+div.header{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+
+    background-image: url("../Image/bghome.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+div.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    border:1px solid rgba(250, 250, 250, 0.753);
+    padding: 120px 150px 120px 150px;
+
+    text-align: center;
+}
+
+#title{
+    font-size: 74px;   
+}
+
+#subtitle{
+    font-size: 50px;
+}
+
+#title, #subtitle{
+    color: rgba(255, 255, 255, 0.897);
+    text-shadow: 4px 4px 8px #000000;
+
+    line-height: 100px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+html,body{ 
+    margin:0; padding:0; height:100%; width:100%;
+}
+
+#full-size{
+  height:100%;
+  width:100%;
+  overflow:hidden; /* or overflow:auto; if you want scrollbars */
+}
